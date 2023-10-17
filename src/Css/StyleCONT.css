@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    list-style: 0;
+    background-color: gray;
+}
+
+header{
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 6px solid white;
+    border-radius: 6px;
+}
+
+nav{
+    width: 80%;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: black;
+    transform: scale(1.3);
+
+}
+
+#chamada1{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.hoje{
+    font-size: 16px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: white;
+    height: 300px;
+    width: 100%;
+    margin-left: 15px;
+}
+
+.lista1{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMTc0YTdhNTYtMjI1MC00ZDQwLTljNTMtNGI3ODRlYzhhM2FiXkEyXkFqcGdeQXVyNzE3ODQxNjU@._V1_FMjpg_UX1000_.jpg);
+    background-size: cover;
+    
+}
+
+.nome1{
+    position: absolute;
+    display: flex;
+    margin-left: 75px;
+    flex-direction: column;
+}
+
+.informacao{
+    font-size:12px ;
+}
+
+.cell1{
+    margin-top: -57px;
+    margin-left: 1200px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background-image: url(https://svgsilh.com/svg_v2/304968.svg);
+    background-size: cover;
+    position: absolute;
+}
+
+.lista2{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background-position: 0% 20%;
+    background-image: url(https://i.pinimg.com/736x/b4/28/97/b4289704e7f12bd3022592cec7601687.jpg);
+    background-size: cover;
+}
+
+.nome2{
+    position: absolute;
+    display: flex;
+    margin-left: 75px;
+    flex-direction: column;
+
+}
+
+.lista3{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background-image: url(https://conteudo.imguol.com.br/c/noticias/8b/2018/09/21/joaquin-phoenix-com-a-maquiagem-de-palhaco-em-coringa-1537578484204_v2_1x1.jpg);
+    background-size: cover;
+}
+
+.nome3{
+    position: absolute;
+    display: flex;
+    margin-left: 75px;
+    flex-direction: column;
+
+}
+
+.lista4{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background-position: 50% 0%;
+    background-image: url(https://uploads.jovemnerd.com.br/wp-content/uploads/2018/07/robin-titans.jpg);
+    background-size: cover;
+}
+
+.nome4{
+    position: absolute;
+    display: flex;
+    margin-left: 75px;
+    flex-direction: column;
+}
+
+#chamada2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.ontem{
+    font-size: 16px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: white;
+    height: 500px;
+    width: 100%;
+    margin-left: 15px
+}
+
+.passado1{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background-image: url(https://static.wikia.nocookie.net/batman/images/e/eb/DsCrs.png/revision/latest?cb=20150504174522&path-prefix=pt-br);
+    background-size: cover;
+    
+}
+
+.name1{
+    position: absolute;
+    display: flex;
+    margin-left: 75px;
+    flex-direction: column;
+}
+
+.information{
+    font-size:12px ;
+}
+
+.cll1{
+    margin-top: -57px;
+    margin-left: 1200px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background-image: url(https://svgsilh.com/svg_v2/304968.svg);
+    background-size: cover;
+    position: absolute;
+}
+
+.passado2{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background-image: url(https://static.wikia.nocookie.net/batman/images/3/32/Charada.png/revision/latest?cb=20150430140527&path-prefix=pt-br);
+    background-size: cover;
+    
+}
+
+.name2{
+    position: absolute;
+    display: flex;
+    margin-left: 75px;
+    flex-direction: column;
+}
+
+.passado3{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background-image: url(https://s2.glbimg.com/giAXUXvxG3ULfw7n8gxqG7x4r94=/0x0:1179x671/924x0/smart/filters:strip_icc/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2022/A/m/FKbifKTdS5DSGbEs4Pvg/henry.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.name3{
+    position: absolute;
+    display: flex;
+    margin-left: 75px;
+    flex-direction: column;
+}
+
+.passado4{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background-image: url(https://static.wikia.nocookie.net/dcverse/images/8/8e/Mulher-Gato_TDKR.png/revision/latest?cb=20190221003935);
+    background-size: cover;
+    
+}
+
+.name4{
+    position: absolute;
+    display: flex;
+    margin-left: 75px;
+    flex-direction: column;
+}
+
+.passado5{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background-image: url(https://store-images.s-microsoft.com/image/apps.9948.67474797281025841.312fa615-4d56-4877-a2fd-a94f75e62761.3eb90f45-76b7-4d18-8927-ffd8f99aad13?q=90&w=480&h=270);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.name5{
+    position: absolute;
+    display: flex;
+    margin-left: 75px;
+    flex-direction: column;
+}
+
+footer{
+    height: 250px;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: black;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    header{
+        display: none;
+    }
+}

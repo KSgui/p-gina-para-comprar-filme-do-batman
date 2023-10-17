@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    background-image: url(https://i.pinimg.com/564x/69/25/46/6925463504ba4b3bfbf8bde9cdf1087a.jpg);
+    background-size: auto;
+    height: 1600px; 
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+ul{
+    width: 100%;
+    height: 100px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    border-radius: 97px;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: red;
+    font-size: 26px;
+}
+
+.logo{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+img{
+    width: 200px;
+    height: 120px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 60%;
+    
+}
+
+#card-banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.list-batmans{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px; 
+}
+
+.bloco{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.bloco:hover{
+    transform: scale(1.02);
+}
+
+.bat1{
+    background-image: url(https://4.bp.blogspot.com/-FcAWL5XXSEY/TmXrlILgMII/AAAAAAAAhOc/084c7h1jjH8/s932/Batman-50.jpg);
+}
+.bat2{
+    background-image: url(http://www.cultjer.com/img/ug_photo/2016_03/64364420160307141209.jpg);
+}
+.bat3{
+    background-image: url(https://static.standard.co.uk/s3fs-public/thumbnails/image/2018/09/12/13/batman-dark-knight.jpg);
+}
+.bat4{
+    background-image: url(http://1.bp.blogspot.com/-e7NH40qO7Hw/VThMYftZPYI/AAAAAAAAJ70/LzdVFNZBJro/s1600/batman-v-superman-trailer-screengrab-28%2B.jpg);
+}
+.bat5{
+    background-image: url(https://carboncostume.com/wordpress/wp-content/uploads/2017/10/batman-2016.jpg);
+}
+.bat6{
+    background-image: url(https://www.laguiadelvaron.com/wp-content/uploads/2020/10/retrasan-the-batman-2022-www.laguiadelvaron-2.jpg);
+}
+
+footer{
+    background-color: black;
+    height: 250px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+
+@media(max-width: 768px) {
+    nav{
+        grid-template-columns: 1fr;
+    }
+
+    .list-batmans{
+        grid-template-columns: 1fr;
+    }
+}
